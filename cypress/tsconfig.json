@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": false,
+    "target": "ES6",
+    "lib": ["ES6", "DOM"],
+    "baseUrl": "../node_modules",
+    "types": [
+      "cypress",
+      "node"
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "**/*.ts"
+  ]
+}

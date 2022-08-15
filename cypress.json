@@ -1,0 +1,10 @@
+{
+  "viewportWidth": 1960,
+  "viewportHeight": 1080,
+  "integrationFolder": "cypress/e2e",
+  "video": false,
+  "reporter": "cypress-mochawesome-reporter",
+  "env": {
+    "ENVIRONMENT": "test"
+  }
+}
